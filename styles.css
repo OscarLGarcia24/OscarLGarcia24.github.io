@@ -8,7 +8,6 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f4c2c2;
   background-image: url('rosas.jpg');
-  
   background-position: center;
   background-repeat: repeat;
 }
@@ -22,8 +21,8 @@ body {
 
 .envelope {
   position: relative;
-  width: 380px;
-  height: 400px;
+  width: 80vw;
+  height: 80vh;
   background-color: #fff;
   border: 2px solid #f4c2c2;
   border-radius: 10px;
@@ -39,14 +38,14 @@ body {
 }
 
 .title {
-  font-size: 37px;
+  font-size: 5vw;
   font-weight: bold;
   text-transform: uppercase;
   color: #f4c2c2;
 }
 .title-container.visible {
-  width: 360px;
-  height: 250px;
+  width: 100%;
+  height: 50%;
   opacity: 1;
 }
 .buttons {
@@ -85,8 +84,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  width: 360px;
-  height: 250px;
+  width: 80vw;
+  height: 50vh;
   background-color: #fff;
   border: 2px solid #f4c2c2;
   border-radius: 10px;
@@ -106,7 +105,7 @@ body {
 }
 
 .message {
-  font-size: 20px;
+  font-size: 4vw;
   font-weight: bold;
   text-align: center;
   color: #f4c2c2;
@@ -142,12 +141,12 @@ body {
 
 @media (max-width: 600px) {
   .envelope {
-    width: 250px;
-    height: 150px;
+    width: 90vw;
+    height: 90vh;
   }
 
   .title {
-    font-size: 20px;
+    font-size: 10vw;
   }
 
   .buttons {
@@ -159,12 +158,12 @@ body {
   }
 
   .card {
-    width: 200px;
-    height: 120px;
+    width: 90vw;
+    height: 60vh;
   }
 
   .message {
-    font-size: 18px;
+    font-size: 8vw;
   }
 
   .close-button {
